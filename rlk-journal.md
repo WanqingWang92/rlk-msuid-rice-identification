@@ -39,6 +39,16 @@ to the object’s length.
 - build a directory separate-pep for out put result of separate-pep.R 
 - generated batch_1:7.pep files
 
-**The TMHMM-2.0 is outdated.**Deep TMHMM is used instead. This version
+**The TMHMM-2.0 is outdated.** Deep TMHMM is used instead. This version
 allows for more than 10000 per run. will use all.pep file.
+- used anaconda to install pybiolib, it did not work out
+- used pip install command from the website
+- the command installed successfully, though biolib function cannot run
+
+**Cannot get the terminal version working,** will use the website to run
+- batch1 took too long on the website and it aborted after 1.5 hr
+- batch7 finished, I compared the result from Dr. Furuta's, they are 
+not completely the same
+
+**tried using ubuntu on windows** and it worked.
 
