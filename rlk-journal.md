@@ -52,3 +52,13 @@ not completely the same
 
 **tried using ubuntu on windows** and it worked.
 
+## 5/11/2022
+- The ubuntu run was terminated after ~1h. 
+- try rerun using ubuntu on batch_1.pep to shorten the total time.
+- also tried on the web version again, generally it is a bit slower than 
+the terminal
+- still exceed time limits, used R script to further divide to 13 batches.
+- rerun ubuntu and website version
+- the access is limited to sign in after one run, will sign in through the
+website and finish running the rest on there. Everything seems to work, 
+though the server gets busy around 15:00,cannot get project in.
