@@ -1,0 +1,11 @@
+[2022-05-12 13:31:50] Running job ab01c31e-ce27-4a4a-9b57-3dbc8dcfbd6f with arguments: ["--fasta","batch_11.pep"]. Got 0 bytes of stdin data.
+[2022-05-12 13:31:50] Cloud: Creating job
+[2022-05-12 13:31:51] Cloud: Job created with id d7ddcefc-01aa-4a6e-b986-70f260edae3d
+[2022-05-12 13:31:51] Cloud: Awaiting initialization of compute node at 10.11.35.140
+[2022-05-12 13:31:53] Cloud: Initializing
+[2022-05-12 13:31:53] Cloud: Pulling images...
+[2022-05-12 13:31:53] Cloud: Computing...
+[2022-05-12 14:00:58] Cloud: Computation finished
+[2022-05-12 14:00:58] Cloud: Result Ready
+[2022-05-12 14:01:00] Cloud: Got module output.
+[2022-05-12 14:01:00] Job with id ab01c31e-ce27-4a4a-9b57-3dbc8dcfbd6f finished computing

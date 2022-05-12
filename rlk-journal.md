@@ -62,3 +62,6 @@ the terminal
 - the access is limited to sign in after one run, will sign in through the
 website and finish running the rest on there. Everything seems to work, 
 though the server gets busy around 15:00,cannot get project in.
+
+## 5/12/2022
+- finished running the rest of the batches on the DeepTMHMM website
