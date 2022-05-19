@@ -1,5 +1,7 @@
 # RLK project journal
-
+SignalP version 6
+DeepTMHMM 1.0.9
+pfam_scan 1.6 HMMER 3.3.2
 ## 4/26/2022 
 - environment: windows terminal
 - git 
@@ -65,3 +67,31 @@ though the server gets busy around 15:00,cannot get project in.
 
 ## 5/12/2022
 - finished running the rest of the batches on the DeepTMHMM website
+
+## 5/17/2022
+- tried to install pfam through conda, failed
+- build a visual environment to solve the problem, could not activate the env
+- changed into the ubuntu system through pycharm
+- create new environment
+- figure out the python interpreter for rlk-msuid-rice-identification project
+```{bash}
+    conda install -c bioconda pfam_scan
+```
+- this installed hmmer as well 
+
+**according to perl/bioinfo thread, it is better to use hmmer 3 with cut off**
+- unzip and index Pfam database
+```{bash}
+    gunzip Pfam-A.hmm.gz
+    hmmpress Pfam-A.hmm
+```
+- generated 4 Pfam files as a result
+```{bash}
+  hmmscan --cpu 8 --notextw --cut_ga --domtblout hmmerout.txt Pfam-A.hmm all.pep
+```
+
+## 5/18/2022
+- continue running the hmmscan
+
+## 5/19/2022
+- git push 
