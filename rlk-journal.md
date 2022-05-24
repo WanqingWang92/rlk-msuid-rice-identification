@@ -95,3 +95,17 @@ though the server gets busy around 15:00,cannot get project in.
 
 ## 5/19/2022
 - git push 
+
+## 5/23/2022
+- create pfamscan depository
+- downloaded PfamScan.tar.gz
+- gunzip PfamScan.tar.gz
+- downloaded Pfam-A.hmm.dat.gz and Pfam-A.hmm.gz
+- gunzip these two files, the original file will disappear
+- using conda installed perl moose
+- try the command 
+```
+pfam_scan.pl -fasta pep/all.pep -dir pfam -outfile output/pfam_A_out
+```
+- computer was left to run for the night, even though there is no message in the 
+terminal, the output is the same as Dr Furuta's
