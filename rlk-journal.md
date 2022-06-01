@@ -109,3 +109,13 @@ pfam_scan.pl -fasta pep/all.pep -dir pfam -outfile output/pfam_A_out
 ```
 - computer was left to run for the night, even though there is no message in the 
 terminal, the output is the same as Dr Furuta's
+
+## 5/30/2022
+- combine-TM-data.py
+- try to combine all the DeepTMHMM results into one file
+
+## 5/31/2022
+- combine-df.py
+- imported pfam_A_out.txt, output pfam_cleaned.csv
+- imported prediction_results.txt for signal p, output signalp_cleaned.csv
+- imported TM_results.txt, output tm_cleaned.csv

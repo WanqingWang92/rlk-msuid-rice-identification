@@ -137,3 +137,10 @@ hmmerout.txt
 separate-pep/
 separate-pep-more/
 pfam_A_out.txt
+
+/before-pipeline-data-input/cleaned-data/pfam_cleaned.csv
+/before-pipeline-data-input/cleaned-data/signalp_cleaned.csv
+/before-pipeline-data-input/cleaned-data/tm_cleaned.csv
+/before-pipeline-data-input/prediction_results.txt
+/before-pipeline-data-input/TM_results.txt
+/rlp-rlk-journal-note
