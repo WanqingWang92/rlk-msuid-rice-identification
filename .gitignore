@@ -144,3 +144,5 @@ pfam_A_out.txt
 /before-pipeline-data-input/prediction_results.txt
 /before-pipeline-data-input/TM_results.txt
 /rlp-rlk-journal-note
+*.txt
+*.csv

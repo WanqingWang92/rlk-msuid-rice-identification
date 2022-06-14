@@ -119,3 +119,13 @@ terminal, the output is the same as Dr Furuta's
 - imported pfam_A_out.txt, output pfam_cleaned.csv
 - imported prediction_results.txt for signal p, output signalp_cleaned.csv
 - imported TM_results.txt, output tm_cleaned.csv
+
+## 6/1/2022
+- import three cleaned data files, output two files for github pipline
+- 
+## 6/13/2022
+- completed run1 for github script using ath data provided
+- talked with Dr. Furuta, decided to use the other_d_rlk list in the github, while adding RLK, RLP 
+domains experimentally validated in rice. No other domains from validated rice RLK or RLP that need
+to be added.
+- 
