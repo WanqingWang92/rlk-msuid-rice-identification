@@ -128,4 +128,15 @@ terminal, the output is the same as Dr Furuta's
 - talked with Dr. Furuta, decided to use the other_d_rlk list in the github, while adding RLK, RLP 
 domains experimentally validated in rice. No other domains from validated rice RLK or RLP that need
 to be added.
-- 
+
+## 6/15/2022
+-I realised there is a problem when write out the two rice files, the concat method
+used was not joining the data correctly
+- also signal IP some isoform of the genes were short indexed, 
+need to fix that as well.
+- checked the TM results as well, eg LOC_Os03g05390.12 will only be recorded
+as LOC_Os03g05390.1. Will update that result as well.
+- in the end, both signalp and TM had the same number of output: 66153, 
+pfam is more due to duplicated domains, it is 80455.
+- I also output pfam_tm_signalp_combined csv file for future purpose
+- re-run the script and the result looked reasonable
