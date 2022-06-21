@@ -130,7 +130,7 @@ domains experimentally validated in rice. No other domains from validated rice R
 to be added.
 
 ## 6/15/2022
--I realised there is a problem when write out the two rice files, the concat method
+- I realised there is a problem when write out the two rice files, the concat method
 used was not joining the data correctly
 - also signal IP some isoform of the genes were short indexed, 
 need to fix that as well.
@@ -140,3 +140,19 @@ as LOC_Os03g05390.1. Will update that result as well.
 pfam is more due to duplicated domains, it is 80455.
 - I also output pfam_tm_signalp_combined csv file for future purpose
 - re-run the script and the result looked reasonable
+
+## 6/16/2022
+- updated gene look up script to compare experimentally validated genes and predicted
+genes. 
+- the result looks promising. all the genes supposed to be predicted were there.
+the rest of them missing a TM domain. 
+
+## 6/17/2022
+- during the process of organizing rlk and rlp list for sensei, I realized the rlk count
+for generating the general rlk excel used rlp count for glectin_b/s/p. 
+- created the heatmap depository and rlk_deg.py to obtain the rlk, rlp degs. 
+
+## 6/21/2022
+- corrected sp column of rlk list
+- produced the rlk and rlp deg list
+ 
